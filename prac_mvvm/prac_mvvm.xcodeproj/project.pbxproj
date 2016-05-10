@@ -10,12 +10,12 @@
 		3710B68CA0DB258DC0BCD62F /* libPods-prac_mvvm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7A6E084AEE3048398B9426 /* libPods-prac_mvvm.a */; };
 		F5955E8F1CE21663002EFA90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5955E8E1CE21663002EFA90 /* main.m */; };
 		F5955E921CE21663002EFA90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5955E911CE21663002EFA90 /* AppDelegate.m */; };
-		F5955E951CE21663002EFA90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5955E941CE21663002EFA90 /* ViewController.m */; };
-		F5955E981CE21663002EFA90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5955E961CE21663002EFA90 /* Main.storyboard */; };
 		F5955E9A1CE21663002EFA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5955E991CE21663002EFA90 /* Assets.xcassets */; };
-		F5955E9D1CE21663002EFA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5955E9B1CE21663002EFA90 /* LaunchScreen.storyboard */; };
 		F5955EA81CE21663002EFA90 /* prac_mvvmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5955EA71CE21663002EFA90 /* prac_mvvmTests.m */; };
 		F5955EB31CE21663002EFA90 /* prac_mvvmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5955EB21CE21663002EFA90 /* prac_mvvmUITests.m */; };
+		F5955EC41CE21C1B002EFA90 /* PresentationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5955EC21CE21C1B002EFA90 /* PresentationsVC.m */; };
+		F5955EC51CE21C1B002EFA90 /* PresentationsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5955EC31CE21C1B002EFA90 /* PresentationsVC.xib */; };
+		F5955EC71CE21CED002EFA90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5955EC61CE21CED002EFA90 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,11 +43,7 @@
 		F5955E8E1CE21663002EFA90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5955E901CE21663002EFA90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5955E911CE21663002EFA90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F5955E931CE21663002EFA90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F5955E941CE21663002EFA90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F5955E971CE21663002EFA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5955E991CE21663002EFA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F5955E9C1CE21663002EFA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5955E9E1CE21663002EFA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5955EA31CE21663002EFA90 /* prac_mvvmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prac_mvvmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5955EA71CE21663002EFA90 /* prac_mvvmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prac_mvvmTests.m; sourceTree = "<group>"; };
@@ -55,6 +51,10 @@
 		F5955EAE1CE21663002EFA90 /* prac_mvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prac_mvvmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5955EB21CE21663002EFA90 /* prac_mvvmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prac_mvvmUITests.m; sourceTree = "<group>"; };
 		F5955EB41CE21663002EFA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5955EC11CE21C1B002EFA90 /* PresentationsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationsVC.h; sourceTree = "<group>"; };
+		F5955EC21CE21C1B002EFA90 /* PresentationsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationsVC.m; sourceTree = "<group>"; };
+		F5955EC31CE21C1B002EFA90 /* PresentationsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentationsVC.xib; sourceTree = "<group>"; };
+		F5955EC61CE21CED002EFA90 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,7 @@
 		F5955E811CE21663002EFA90 = {
 			isa = PBXGroup;
 			children = (
+				F5955EC61CE21CED002EFA90 /* Default-568h@2x.png */,
 				F5955E8C1CE21663002EFA90 /* prac_mvvm */,
 				F5955EA61CE21663002EFA90 /* prac_mvvmTests */,
 				F5955EB11CE21663002EFA90 /* prac_mvvmUITests */,
@@ -125,13 +126,10 @@
 		F5955E8C1CE21663002EFA90 /* prac_mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				F5955EC01CE21BEA002EFA90 /* presentations */,
 				F5955E901CE21663002EFA90 /* AppDelegate.h */,
 				F5955E911CE21663002EFA90 /* AppDelegate.m */,
-				F5955E931CE21663002EFA90 /* ViewController.h */,
-				F5955E941CE21663002EFA90 /* ViewController.m */,
-				F5955E961CE21663002EFA90 /* Main.storyboard */,
 				F5955E991CE21663002EFA90 /* Assets.xcassets */,
-				F5955E9B1CE21663002EFA90 /* LaunchScreen.storyboard */,
 				F5955E9E1CE21663002EFA90 /* Info.plist */,
 				F5955E8D1CE21663002EFA90 /* Supporting Files */,
 			);
@@ -162,6 +160,16 @@
 				F5955EB41CE21663002EFA90 /* Info.plist */,
 			);
 			path = prac_mvvmUITests;
+			sourceTree = "<group>";
+		};
+		F5955EC01CE21BEA002EFA90 /* presentations */ = {
+			isa = PBXGroup;
+			children = (
+				F5955EC11CE21C1B002EFA90 /* PresentationsVC.h */,
+				F5955EC21CE21C1B002EFA90 /* PresentationsVC.m */,
+				F5955EC31CE21C1B002EFA90 /* PresentationsVC.xib */,
+			);
+			path = presentations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5955E9D1CE21663002EFA90 /* LaunchScreen.storyboard in Resources */,
+				F5955EC51CE21C1B002EFA90 /* PresentationsVC.xib in Resources */,
 				F5955E9A1CE21663002EFA90 /* Assets.xcassets in Resources */,
-				F5955E981CE21663002EFA90 /* Main.storyboard in Resources */,
+				F5955EC71CE21CED002EFA90 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +353,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5955E951CE21663002EFA90 /* ViewController.m in Sources */,
 				F5955E921CE21663002EFA90 /* AppDelegate.m in Sources */,
+				F5955EC41CE21C1B002EFA90 /* PresentationsVC.m in Sources */,
 				F5955E8F1CE21663002EFA90 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,25 +389,6 @@
 			targetProxy = F5955EAF1CE21663002EFA90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F5955E961CE21663002EFA90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5955E971CE21663002EFA90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F5955E9B1CE21663002EFA90 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5955E9C1CE21663002EFA90 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F5955EB51CE21663002EFA90 /* Debug */ = {

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PresentationsVC.h
 //  prac_mvvm
 //
 //  Created by lee taejun on 2016. 5. 10..
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PresentationsVC : UIViewController
 
 @end
-

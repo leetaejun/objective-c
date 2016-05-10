@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  PresentationsVC.m
 //  prac_mvvm
 //
 //  Created by lee taejun on 2016. 5. 10..
 //  Copyright © 2016년 lee taejun. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PresentationsVC.h"
 
-@interface ViewController ()
+@interface PresentationsVC ()
 
 @end
 
-@implementation ViewController
+@implementation PresentationsVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
